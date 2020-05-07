@@ -14,3 +14,12 @@
 SCRIPTS - PACKAGE.JSON FILE
 
 - server script is to run the node server backend.
+
+==========================================================================================================
+CONFIGURATION TO CONNECT THE DATABASE TO THE APPLICATION
+
+- create a folder on the top level called 'config'. In there create a file called 'default.json'
+- "the depenency created in package.json file will allow us to create global values that can be used throughout the application. The default json file can have all the default values.
+- put your 'mongoURI' link in the default.json file (mongoURI is the link from mongo atlas to connect to app)
+- create another file in the
+- CONNECTION LOGIC: create a new file in the config folder called 'db.js'
